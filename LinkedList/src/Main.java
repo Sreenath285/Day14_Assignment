@@ -12,10 +12,11 @@ public class Main {
          * 3. printing the linked list after adding the nodes
          * 4. inserting data in between data
          * 5. printing the linked list after inserting the data
-         * 6. deleting first element in linked list
-         * 7. printing linked list after deleting first element
-         * 8. deleting last element in linked list
-         * 9. printing linked list after deleting last element
+         * 6. searching an element
+         * 7. deleting first element in linked list
+         * 8. printing linked list after deleting first element
+         * 9. deleting last element in linked list
+         * 10. printing linked list after deleting last element
          */
 
         /***
@@ -46,24 +47,29 @@ public class Main {
         myLinkedList.printLinkedList();
 
         /***
-         * 6. deleting first element in linked list
+         * 6. searching an element
+         */
+        myLinkedList.searchElement(myLinkedList, 30);
+
+        /***
+         * 7. deleting first element in linked list
          */
         System.out.println("\nAfter deleting first element : ");
         myLinkedList.deleteFirstElement();
 
         /***
-         * 7. printing linked list after deleting first element
+         * 8. printing linked list after deleting first element
          */
         myLinkedList.printLinkedList();
 
         /***
-         * 8. deleting last element in linked list
+         * 9. deleting last element in linked list
          */
         System.out.println("\nAfter deleting last element : ");
         myLinkedList.deleteLastElement();
 
         /***
-         * 9. printing linked list after deleting last element
+         * 10. printing linked list after deleting last element
          */
         myLinkedList.printLinkedList();
 

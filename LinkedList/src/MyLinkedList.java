@@ -74,4 +74,19 @@ public class MyLinkedList {
         }
         previousNode.next = null;
     }
+
+    /***
+     * searchElement method is created to search given element
+     * @param myLinkedList - searching through the linked list
+     * @param data - data to search in the linked list
+     */
+    public void searchElement(MyLinkedList myLinkedList, int data) {
+
+        MyNode currentNode = myLinkedList.head;
+//        MyNode previousNode = null;
+        while (currentNode != null && currentNode.data != data){
+            currentNode = currentNode.next;
+        }
+        System.out.print("\nSearched element : " + currentNode.data);
+    }
 }

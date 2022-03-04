@@ -59,7 +59,7 @@ public class Main {
         /***
          * 7. searching an element
          */
-        myLinkedList.searchElement(myLinkedList, 30);
+        myLinkedList.searchElement(30);
 
         /***
          * 8. deleting specific element
